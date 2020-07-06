@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <%- include ("./common/head") %>
+    </head>
+
+    <body>
+        <div id="wrap">
+            <!------------------- 상단 navbar ------------------->
+            <header>
+            <%- include ("./common/navbar") %>
+            </header>
+        </div>
+            <!------------------- 점보트론 ------------------->
+            <div class="jumbotron text-center">
+                <h3>나만의 자격증 비서</h3>
+                <h1>자비스</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sapiente.</p>
+                <p><a class="btn btn-default btn-small" href="#" role="button">지금 시작해보세요!</a></p>
+            </div>
+
+            <div id="wrap">
+
+            <!------------------- 서치폼 ------------------->
+            <div class="container-fluid content">
+                <div class="content-header text-center">
+                    <h3>자격증/시험/전공을 검색해보세요!</h3>
+                </div>
+
+                <form class="join-input" method="get" action="search">
+                    <div class="searchForm2">
+                    <input type="text" class="search" name="searchKey" placeholder="자격증/시험">
+                    <button type="submit" class="btn">
+                        <img src="src/img/search3.svg"/>
+                    </button>
+                    </div>
+                </form>
+            </div>
+        
+            <!------------------- 자격증 추천 ------------------->
+            <div class="recommend">
+                <div class="content-header text-center">
+                    <h3>현재 인기 자격증</h3>
+                </div>
+                <div class="tag">
+                    <button type="button" class="buttonTag">한국사</button>
+                    <button type="button" class="buttonTag">정처기</button>
+                    <button type="button" class="buttonTag">인기자격증아무거</button>
+                    <button type="button" class="buttonTag">SQLD</button>
+                    <button type="button" class="buttonTag">정보처리기사</button>
+                    <button type="button" class="buttonTag">정처기</button>
+                    <button type="button" class="buttonTag">정처기</button>
+                </div>
+                <div class="tag-right">
+                    <a href="#">
+                        <p>당신에게 필요한 자격증은?</p>
+                    </a>
+                </div>
+            </div>
+
+            <!------------------- 시험 일정 ------------------->
+
+            <main>
+                <section>
+                    <div class="content-header text-center">
+                        <h3>다가오는 시험</h3>
+                    </div>
+                    <div class="scroll-wrap">
+                        <!-- <h3>내 시험 일정</h3> -->
+                        <table class="table table-hover data">
+                            <thead>
+                              <tr>
+                                <th>시험명</th>
+                                <th>시험일</th>
+                                <th>성적발표일</th>
+                                <th>접수확인</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                              <tr>
+                                <td>토익</td>
+                                <td>2020.06.20</td>
+                                <td>2020.08.20</td>
+                                <td><a href="#">링크</a></td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        <!-- <ul>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                            <li><a href="#">다가오는 시험 1</a></li>
+                        </ul> -->
+                    </div>
+                </section>
+            </main>
+        
+
+        </div>
+            <!------------------- 푸터 ------------------->
+            <div class="footer">
+                <%- include ("./common/footer") %>
+            </div>
+    </body>
+</html>
