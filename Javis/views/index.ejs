@@ -2,6 +2,16 @@
 <html lang="ko">
     <head>
         <%- include ("./common/head") %>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link href="src/css/style.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
     </head>
 
     <body>
@@ -20,7 +30,6 @@
             </div>
 
             <div id="wrap">
-
             <!------------------- 서치폼 ------------------->
             <div class="container-fluid content">
                 <div class="content-header text-center">
@@ -65,9 +74,9 @@
                     <div class="content-header text-center">
                         <h3>다가오는 시험</h3>
                     </div>
-                    <div class="scroll-wrap">
-                        <!-- <h3>내 시험 일정</h3> -->
-                        <table class="table table-hover data">
+                    <div class="slider">
+                      <div>
+                          <table class="table table-hover data">
                             <thead>
                               <tr>
                                 <th>시험명</th>
@@ -76,124 +85,72 @@
                                 <th>접수확인</th>
                               </tr>
                             </thead>
+                              <tbody>
+                                  <tr>
+                                    <td>토익</td>
+                                    <td>2020.06.20</td>
+                                    <td>2020.08.20</td>
+                                    <td><a href="#">링크</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>토익</td>
+                                    <td>2020.06.20</td>
+                                    <td>2020.08.20</td>
+                                    <td><a href="#">링크</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>토익</td>
+                                    <td>2020.06.20</td>
+                                    <td>2020.08.20</td>
+                                    <td><a href="#">링크</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td>토익</td>
+                                    <td>2020.06.20</td>
+                                    <td>2020.08.20</td>
+                                    <td><a href="#">링크</a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                      </div>
+                      <div>
+                        <table class="table table-hover data">
+                          <thead>
+                            <tr>
+                              <th>시험명</th>
+                              <th>시험일</th>
+                              <th>성적발표일</th>
+                              <th>접수확인</th>
+                            </tr>
+                          </thead>
                             <tbody>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                              <tr>
-                                <td>토익</td>
-                                <td>2020.06.20</td>
-                                <td>2020.08.20</td>
-                                <td><a href="#">링크</a></td>
-                              </tr>
-                            </tbody>
-                        </table>
-                        <!-- <ul>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                            <li><a href="#">다가오는 시험 1</a></li>
-                        </ul> -->
+                                <tr>
+                                  <td>토익</td>
+                                  <td>2020.06.20</td>
+                                  <td>2020.08.20</td>
+                                  <td><a href="#">링크</a></td>
+                                </tr>
+                                <tr>
+                                  <td>토익</td>
+                                  <td>2020.06.20</td>
+                                  <td>2020.08.20</td>
+                                  <td><a href="#">링크</a></td>
+                                </tr>
+                                <tr>
+                                  <td>토익</td>
+                                  <td>2020.06.20</td>
+                                  <td>2020.08.20</td>
+                                  <td><a href="#">링크</a></td>
+                                </tr>
+                                <tr>
+                                  <td>토익</td>
+                                  <td>2020.06.20</td>
+                                  <td>2020.08.20</td>
+                                  <td><a href="#">링크</a></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                      </div>
                     </div>
                 </section>
             </main>
